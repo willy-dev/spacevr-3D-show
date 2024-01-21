@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unknown-property */
 import { GroupProps } from "@react-three/fiber";
 import { Color } from "three";
 import { useSkyMat } from "./materials/sky";
@@ -42,7 +43,7 @@ export default function CloudySky(props: GradientSky) {
   return (
     <group {...restProps} name="cloudy-sky">
       <mesh material={mat}>
-        <sphereBufferGeometry args={[RADIUS, 50, 50]} />
+        <sphereGeometry args={[RADIUS, 50, 50]} />
       </mesh>
     </group>
   );
