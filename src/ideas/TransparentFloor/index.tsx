@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unknown-property */ 
 type TransparentFloorProps = { opacity?: number };
 
 export default function TransparentFloor(props: TransparentFloorProps) {

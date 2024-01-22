@@ -10,11 +10,14 @@
     "prettier": "prettier --list-different 'src/**/*.{js,jsx,ts,tsx,md}'"
   },
   "dependencies": {
+    "@react-three/cannon": "^6.6.0",
+    "@react-three/drei": "^9.96.1",
+    "@react-three/fiber": "^8.15.14",
     "next": "^12.1.6",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
     "spacesvr": "^2.12.2",
-    "three": "^0.160.0"
+    "three": "^0.160.1"
   },
   "devDependencies": {
     "@types/node": "17.0.40",
